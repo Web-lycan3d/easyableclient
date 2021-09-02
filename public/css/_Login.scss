@@ -589,6 +589,21 @@
       }
     }
   }
+  .no-otp {
+    display: block;
+    color: rgb(145, 145, 145);
+    font-size: 0.8rem;
+    width: 80%;
+    padding: 0 0.8rem 0 0;
+    span {
+      margin-left: 0.25rem;
+      text-decoration: underline;
+      cursor: pointer;
+      &:hover {
+        color: rgb(158, 158, 158);
+      }
+    }
+  }
   form {
     margin-top: 1rem;
   }

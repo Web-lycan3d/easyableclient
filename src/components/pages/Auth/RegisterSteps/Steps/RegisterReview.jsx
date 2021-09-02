@@ -109,6 +109,12 @@ const RegisterReview = ({ formData, navigation }) => {
               </span>
             </>
           )}
+          {!otpError && (
+            <span className="no-otp">
+              Submit the form once again to generate a new OTP
+              <span onClick={() => setOtpState(true)}>click here</span>
+            </span>
+          )}
           <form onSubmit={handleOTP}>
             <input
               type="text"
