@@ -30,7 +30,7 @@ const Stepper = ({ wid }) => {
 
   const { step, navigation } = useStep({
     steps,
-    initialStep: 3,
+    initialStep: 0,
   });
   useEffect(() => {
     switch (step.id) {
