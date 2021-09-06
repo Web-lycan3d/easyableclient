@@ -369,7 +369,7 @@ body {
 }
 .home-search-box {
   width: 35rem;
-  margin: 10% auto 0;
+  margin: 8% auto 0;
 
   font-family: "Poppins", sans-serif;
 
@@ -992,9 +992,8 @@ body {
   }
 }
 
-@media (min-width: 1121px) and (max-width: 1400px),
-  (min-height: 951px) and (max-height: 1400px) {
-  .home-container {
-    height: 100vh;
-  }
-}
+// @media (min-width: 1121px) and (max-width: 1400px) {
+//   .home-container {
+//     height: 100vh;
+//   }
+// }
