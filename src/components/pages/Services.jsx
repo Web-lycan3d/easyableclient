@@ -211,8 +211,11 @@ const Services = () => {
                 className="service-item">
                 <div className="service-box">
                   <div className="service-header">
+                    <span className="your-service-text">Your service</span>
                     <h2>
-                      {ids.id[0].toUpperCase() + ids.id.slice(1)}
+                      {ids.id[0].toUpperCase() +
+                        ids.id.slice(1).substring(0, 10) +
+                        "..."}
                       {userData && (
                         <span>
                           <Link

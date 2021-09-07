@@ -104,8 +104,7 @@ const Home = () => {
   const history = useHistory();
   const location = useLocation();
 
-  const [userChoice, setUserChoice] = useState();
-
+  const [userInput, setUserInput] = useState("");
   useEffect(() => {
     scroll.scrollTo(0, 0);
     const authToken = queryString.parse(location.search);
@@ -130,13 +129,7 @@ const Home = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    if (userChoice)
-      history.push(
-        "/services/" +
-          userChoice.value.toLowerCase().trim() +
-          "?keyword=" +
-          userChoice.label.toLowerCase().trim()
-      );
+    if (userInput) history.push("/services/" + userInput.toLowerCase());
   };
 
   return (
@@ -179,7 +172,7 @@ const Home = () => {
                   transition={{ duration: 1.2, delay: 0.5, easings: "easeIn" }}
                   className="home-search">
                   <div className="home-input">
-                    <Select
+                    {/* <Select
                       placeholder="we'll get it done"
                       options={groupedOptions}
                       className="input"
@@ -187,6 +180,14 @@ const Home = () => {
                       isClearable
                       value={userChoice}
                       onChange={setUserChoice}
+                    /> */}
+                    <input
+                      type="text"
+                      placeholder="we'll get it done"
+                      className="input"
+                      required
+                      maxLength="100"
+                      onChange={(e) => setUserInput(e.target.value)}
                     />
                   </div>
                   <button className="btn" type="submit"></button>

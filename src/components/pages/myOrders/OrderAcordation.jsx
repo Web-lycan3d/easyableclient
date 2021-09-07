@@ -1,10 +1,9 @@
 /** @format */
 
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 
 import axios from "axios";
 import SweetAlert from "react-bootstrap-sweetalert";
-import Moment from "react-moment";
 
 import {
   AccordionItem,
@@ -17,7 +16,15 @@ import ApiUrl from "../../../ApiUrl";
 
 const OrderAcordation = ({ order, value }) => {
   const [state, setState] = useState(false);
+  const [serviceName, setServiceName] = useState(false);
+
   const url = ApiUrl();
+  useEffect(() => {
+    serviceName &&
+      setTimeout(() => {
+        setServiceName(false);
+      }, 2000);
+  }, [serviceName]);
   const handleClick = async (orderId) => {
     try {
       const DeleteService = await axios.delete(
@@ -69,7 +76,19 @@ const OrderAcordation = ({ order, value }) => {
             <div className="order-details-header">
               <h2>
                 <span className="order-span-tag">{value}.</span>
-                {order.serviceName}
+
+                {!serviceName && (
+                  <span onClick={() => setServiceName(true)}>
+                    {order.serviceName.length <= 10
+                      ? order.serviceName
+                      : order.serviceName.substring(0, 10) + "..."}{" "}
+                  </span>
+                )}
+                {serviceName && (
+                  <span onClick={() => setServiceName(false)}>
+                    {order.serviceName}
+                  </span>
+                )}
                 <span className="date-mobile">
                   {order.date.substring(0, 9)}
                 </span>

@@ -133,14 +133,21 @@
       }
     }
   }
+  .your-service-text {
+    position: absolute;
+    top: 0.3rem;
+    color: rgb(143, 143, 143);
+    font-size: 0.7rem;
+  }
   h2 {
     color: #15e27f;
     font-weight: 600;
-    margin-top: 0;
+    margin-top: 0.8rem;
     margin-bottom: 0.5rem;
-    font-size: 2.2rem;
+    font-size: 2.1rem;
     letter-spacing: 0.5px;
-
+    line-height: 1;
+    width: 25rem;
     span {
       font-size: 0.6rem;
       margin-left: 0.2rem;
@@ -384,7 +391,8 @@
     .service-box {
       h2 {
         font-size: 1.95rem;
-        margin: 0;
+        margin-top: 0.8rem;
+        margin-bottom: 0;
       }
       .service-form {
         form {
@@ -594,6 +602,7 @@
         }
         h2 {
           font-size: 1.4rem;
+          margin-top: 1rem;
         }
       }
       .service-form {
