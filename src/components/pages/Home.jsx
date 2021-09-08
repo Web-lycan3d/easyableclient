@@ -129,7 +129,7 @@ const Home = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    if (userInput) history.push("/services/" + userInput.toLowerCase());
+    if (userInput) history.push("/services/" + userInput);
   };
 
   return (
