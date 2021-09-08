@@ -372,7 +372,19 @@ body {
   margin: 7% auto 0;
 
   font-family: "Poppins", sans-serif;
-
+  .search-eg {
+    position: relative;
+    bottom: 0.8rem;
+    left: 0.8rem;
+    span {
+      color: rgb(245, 245, 245);
+      font-size: 0.9rem;
+      display: block;
+    }
+    span:nth-child(2) {
+      opacity: 0.7;
+    }
+  }
   .home-search-text {
     width: 82%;
     h1 {
@@ -383,7 +395,15 @@ body {
       font-family: "Poppins", sans-serif;
       margin-bottom: 0px;
       letter-spacing: 0.6px;
-      font-size: 2.4rem;
+      font-size: 2.3rem;
+      strong {
+        font-weight: 100;
+      }
+      p {
+        margin: 0 0.4rem;
+        font-size: 1.35rem;
+        font-weight: 600;
+      }
     }
     h6 {
       display: none;
@@ -742,6 +762,9 @@ body {
     width: 30rem;
     height: 12rem;
     position: relative;
+    .search-eg {
+      left: 0.25rem;
+    }
     .home-search-text {
       position: absolute;
       bottom: 0.6rem;
@@ -753,7 +776,7 @@ body {
         line-height: 1.2;
         margin-bottom: 0.5rem;
         position: absolute;
-        top: -10rem;
+        top: -12rem;
       }
       h6 {
         position: relative;
@@ -879,6 +902,9 @@ body {
     width: 22rem;
     height: 12rem;
     position: relative;
+    .search-eg {
+      display: none;
+    }
     .home-search-text {
       position: absolute;
       bottom: 0.4rem;
@@ -890,11 +916,14 @@ body {
         line-height: 1.2;
         margin-bottom: 0.5rem;
         position: absolute;
-        top: -10.25rem;
+        top: -11.8rem;
 
         padding-left: 0.35rem;
-        strong {
-          font-weight: 300;
+
+        p {
+          margin-top: 0.3rem;
+          margin-left: 0.2rem;
+          font-size: 0.95rem;
         }
       }
       h6 {
@@ -940,7 +969,10 @@ body {
   .home-search-box {
     .home-search-text {
       h1 {
-        font-size: 1.6rem;
+        font-size: 1.9rem;
+        p {
+          font-size: 0.98rem;
+        }
       }
     }
   }

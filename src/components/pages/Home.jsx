@@ -158,6 +158,7 @@ const Home = () => {
                 className="home-search-text">
                 <h1>
                   <strong> Tell us what you need.</strong>
+                  <p>We'll get it done</p>
                 </h1>
                 <h6>
                   Quality service provided to you
@@ -183,12 +184,16 @@ const Home = () => {
                     /> */}
                     <input
                       type="text"
-                      placeholder="we'll get it done"
+                      placeholder="Eg: I want to get my house painted"
                       className="input"
                       required
                       maxLength="100"
                       onChange={(e) => setUserInput(e.target.value)}
                     />
+                    <div className="search-eg">
+                      <span>:I need a PA for a day</span>
+                      <span>:Home Spa Services</span>
+                    </div>
                   </div>
                   <button className="btn" type="submit"></button>
                 </motion.div>
