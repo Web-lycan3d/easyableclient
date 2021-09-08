@@ -4122,14 +4122,15 @@ body {
   font-family: "Poppins", sans-serif;
   margin-bottom: 0px;
   letter-spacing: 0.6px;
-  font-size: 2.3rem;
+  font-size: 2.4rem;
 }
 .home-search-box .home-search-text h1 strong {
-  font-weight: 100;
+  font-weight: 200;
+  opacity: 0.85;
 }
 .home-search-box .home-search-text h1 p {
-  margin: 0 0.4rem;
-  font-size: 1.35rem;
+  margin: 0.11rem 0.4rem 0;
+  font-size: 1.25rem;
   font-weight: 600;
 }
 .home-search-box .home-search-text h6 {
