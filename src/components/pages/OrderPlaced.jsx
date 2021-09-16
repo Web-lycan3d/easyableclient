@@ -21,7 +21,7 @@ const OrderPlaced = () => {
           <div className="order-placed-box">
             <div className="order-placed-container">
               <h2>
-                An <strong>Ezyable executive </strong>will contact you shortly 
+                An <strong>Ezyable executive </strong>will contact you shortly
               </h2>
               <img src="../images/final.svg" alt="error" />
               <p>

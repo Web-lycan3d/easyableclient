@@ -108,7 +108,11 @@ const NavHeader = ({ state }) => {
       <div className="brand-logo">
         <Link to="/">
           <img
-            src={state ? "../images/logo.png" : "../images/greenlogomain.png"}
+            src={
+              state
+                ? "https://i.ibb.co/M2fG52m/EZABLE-Logo-418x244.png"
+                : "https://i.ibb.co/99HQGyt/ezyable-logo.png"
+            }
             alt="error"
           />
         </Link>
