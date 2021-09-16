@@ -50,7 +50,7 @@ const Account = () => {
             <div className="home-padding">
               <div className="image-overlay">
                 <img
-                  src="../images/greenLogo.png"
+                  src="https://i.ibb.co/99HQGyt/ezyable-logo.png"
                   alt="error"
                   className="green-logo"
                 />

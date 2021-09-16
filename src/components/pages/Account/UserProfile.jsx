@@ -142,7 +142,11 @@ const UserProfile = () => {
       <div className="home-contents">
         <div className="home-padding">
           <div className="image-overlay">
-            <img src="../images/imgo.png" alt="error" className="white-logo" />
+            <img
+              src="https://i.ibb.co/M2fG52m/EZABLE-Logo-418x244.png"
+              alt="error"
+              className="white-logo"
+            />
           </div>
           <NavHeader state={true} />
 

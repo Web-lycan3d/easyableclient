@@ -81,7 +81,11 @@ const Login = () => {
         {/* <NavHeader state={true} mobileState={true} /> */}
       </div>
       <div className="image-overlay">
-        <img src="../images/greenLogo.png" alt="error" className="green-logo" />
+        <img
+          src="https://i.ibb.co/99HQGyt/ezyable-logo.png"
+          alt="error"
+          className="green-logo"
+        />
       </div>
       <div className="auth-contents">
         <div className="auth-box">

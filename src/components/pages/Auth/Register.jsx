@@ -17,7 +17,11 @@ const Register = () => {
   return (
     <div className="auth-container">
       <div className="image-overlay">
-        <img src="../images/greenLogo.png" alt="error" className="green-logo" />
+        <img
+          src="https://i.ibb.co/99HQGyt/ezyable-logo.png"
+          alt="error"
+          className="green-logo"
+        />
       </div>
       <div className="auth-contents">
         <div

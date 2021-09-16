@@ -15,7 +15,11 @@ const OrderPlaced = () => {
         </div>
         <div className="home-padding">
           <div className="image-overlay">
-            <img src="../images/imgo.png" alt="error" className="white-logo" />
+            <img
+              src="https://i.ibb.co/99HQGyt/ezyable-logo.png"
+              alt="error"
+              className="white-logo"
+            />
           </div>
           <NavHeader state={true} />
           <div className="order-placed-box">

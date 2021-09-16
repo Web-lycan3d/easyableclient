@@ -178,7 +178,7 @@ const Services = () => {
           <div className="home-padding">
             <div className="image-overlay">
               <img
-                src="../images/imgo.png"
+                src="https://i.ibb.co/99HQGyt/ezyable-logo.png"
                 alt="error"
                 className="white-logo"
               />

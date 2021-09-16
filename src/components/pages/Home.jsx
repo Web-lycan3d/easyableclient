@@ -140,7 +140,11 @@ const Home = () => {
             <img src="../images/mash.png" alt="err" />
           </div>
           <div className="image-overlay">
-            <img src="../images/imgo.png" alt="error" className="white-logo" />
+            <img
+              src="https://i.ibb.co/M2fG52m/EZABLE-Logo-418x244.png"
+              alt="error"
+              className="white-logo"
+            />
           </div>
           <NavHeader state={true} />
           <motion.div
