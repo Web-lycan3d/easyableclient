@@ -188,7 +188,7 @@ const Home = () => {
                     /> */}
                     <input
                       type="text"
-                      placeholder="Eg: I want to get my house painted"
+                      placeholder="I want to get my house painted"
                       className="input"
                       required
                       maxLength="100"
