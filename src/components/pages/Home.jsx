@@ -162,7 +162,6 @@ const Home = () => {
                 className="home-search-text">
                 <h1>
                   <strong> Tell us what you need.</strong>
-                  <p>We'll get it done</p>
                 </h1>
                 <h6>
                   Quality service provided to you
@@ -188,7 +187,7 @@ const Home = () => {
                     /> */}
                     <input
                       type="text"
-                      placeholder="I want to get my house painted"
+                      placeholder="We'll get it done"
                       className="input"
                       required
                       maxLength="100"
