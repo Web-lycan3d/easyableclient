@@ -194,10 +194,6 @@ const Home = () => {
                       maxLength="100"
                       onChange={(e) => setUserInput(e.target.value)}
                     />
-                    <div className="search-eg">
-                      <span>:I need a PA for a day</span>
-                      <span>:Home Spa Services</span>
-                    </div>
                   </div>
                   <button className="btn" type="submit"></button>
                 </motion.div>
